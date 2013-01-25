@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "ohgiri"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jun Yokoyama"]
@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.email = "jun@larus.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
+    "README.md",
     "README.rdoc"
   ]
   s.files = [
@@ -21,6 +22,7 @@ Gem::Specification.new do |s|
     ".rspec",
     "Gemfile",
     "LICENSE.txt",
+    "README.md",
     "README.rdoc",
     "Rakefile",
     "VERSION",
