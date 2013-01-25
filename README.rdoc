@@ -1,6 +1,18 @@
 = ohgiri
 
-Description goes here.
+Simple library to shorten the text by the specified length.
+
+= usage
+
+  "Not that I loved Caesar less, but that I loved Rome more.".shorten(15)
+  # => "Not that I ..."
+
+  "All that glisters is not gold.".shorten(100)
+  # => "All that glisters is not gold."
+
+  "But break, my heart, for I must hold my tongue.".shorten
+  # => "But bre..."
+  # (default length is 10 chr.)
 
 == Contributing to ohgiri
  
