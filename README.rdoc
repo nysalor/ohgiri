@@ -12,7 +12,7 @@ Simple library to shorten the text by the specified length.
   # => "Not that I ..."
 
   "All that glitters is not gold.".shorten(100)
-  # => "All that glisters is not gold."
+  # => "All that glitters is not gold."
 
   "But break, my heart, for I must hold my tongue.".shorten
   # => "But bre..."
