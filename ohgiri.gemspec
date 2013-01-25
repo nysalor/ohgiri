@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jun Yokoyama"]
   s.date = "2013-01-25"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Simple library to shorten the text by the specified length."
   s.email = "jun@larus.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Simple library to shorten the text by the specified length."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
