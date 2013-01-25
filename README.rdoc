@@ -18,6 +18,9 @@ Simple library to shorten the text by the specified length.
   # => "But bre..."
   # (default length is 10 chr.)
 
+  "Life's but a walking shadow.".shorten(10, '-')
+  # => "Life's bu-"
+
 == Contributing to ohgiri
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
