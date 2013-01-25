@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ohgiri"
   gem.homepage = "http://github.com/nysalor/ohgiri"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple library to shorten the text by the specified length.}
+  gem.description = %Q{Simple library to shorten the text by the specified length.}
   gem.email = "jun@larus.org"
   gem.authors = ["Jun Yokoyama"]
   # dependencies defined in Gemfile
