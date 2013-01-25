@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "ohgiri"
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jun Yokoyama"]
   s.date = "2013-01-25"
-  s.description = "Long text shorten by specified length."
+  s.description = "TODO: longer description of your gem"
   s.email = "jun@larus.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -20,12 +20,12 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
-    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "lib/ohgiri.rb",
+    "ohgiri.gemspec",
     "spec/ohgiri_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "Simple text shortener."
+  s.summary = "TODO: one-line summary of your gem"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
